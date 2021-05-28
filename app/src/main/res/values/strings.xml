@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SMSForwarder</string>
+    <string name="app_message">This App will forward your SMS to your Email</string>
+    <string name="receiver_hint_text">Enter email to forward your sms</string>
+    <string name="sender_hint_text">Enter sender whose sms you want to forward</string>
+    <string name="receiver">Receiver</string>
+    <string name="sender">Sender</string>
+    <string name="Send">Send</string>
+    <string name="summary">This App will forward your text message to your email.
+        You need to provide your gmail account credentials which will be used to send the mail.
+        Gmail client has to be installed in your phone.
+        Along with that specify the receiver email address and the sender sms origin that you want to forward.
+        Currently only one sms origin and one receiver is supported.
+    </string>
+</resources>
