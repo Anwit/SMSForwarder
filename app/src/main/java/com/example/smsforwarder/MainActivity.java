@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity implements SmsCatchListener 
     private void sendEmail(String emailBody, String toEmail) {
         String fromEmail = fromEmailValue;
         String fromPassword = passwordValue;
-        String emailSubject = "message from Email Forwarder";
+        String emailSubject = "Message from SMS Forwarder";
 
         try {
             new SendMailTask(MainActivity.this).execute(fromEmail, fromPassword, toEmail, emailSubject, emailBody);
