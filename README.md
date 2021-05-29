@@ -9,5 +9,5 @@
 - SMS listener will stop if you close this App. The app does not run in background.
 - Currently only one Sender and one receiver address is supported as a part of POC.
 
-### Home Screem
+### Home Screen
 ![](assets/SMSForwarder.jpeg)
